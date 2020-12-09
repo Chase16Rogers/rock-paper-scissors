@@ -103,7 +103,7 @@ let possible = [{
 
 function rando() {
   let ran = Math.random() * 10
-  if (ran < 3 { return "rock" }
+  if (ran < 3) { return "rock" }
   else if (ran < 5) { return "paper" }
   else if (ran < 7) { return "scissors" }
   else if (ran < 9) { return "lizard" }
